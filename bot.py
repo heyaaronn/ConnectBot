@@ -13,10 +13,13 @@ ROLE_COMMANDS = {
     "sou": "SOU",
     "oit": "OIT",
     "wou": "WOU",
-    "lc":  "LC",
+    "lc":  "L&C",
     "up":  "UP",
     "gf":  "GF",
     "cc":  "CC",
+    "eou": "EOU",
+    "pac": "Pacific",
+    "bush": "Bushnell",
 }
 
 # The set of role names considered "claimed" roles
