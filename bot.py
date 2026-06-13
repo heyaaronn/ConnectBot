@@ -21,6 +21,7 @@ ROLE_COMMANDS = {
     "pac": "Pacific",
     "bush": "Bushnell",
     "will": "Willamette",
+    "lin": "Linfield",
 }
 
 # The set of role names considered "claimed" roles
