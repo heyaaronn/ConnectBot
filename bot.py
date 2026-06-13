@@ -20,6 +20,7 @@ ROLE_COMMANDS = {
     "eou": "EOU",
     "pac": "Pacific",
     "bush": "Bushnell",
+    "will": "Willamette",
 }
 
 # The set of role names considered "claimed" roles
