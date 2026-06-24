@@ -111,12 +111,17 @@ async def on_command_error(ctx, error):
     raise error
 
 
+# ── Load the suggestions feature ───────────────────────────────────────────────
+@bot.event
+async def setup_hook():
+    try:
+        await bot.load_extension("suggestions")
+    except Exception as e:
+        print(f"⚠️ Could not load suggestions extension: {e}")
+
+
 # ── Run ────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     if not TOKEN:
         raise ValueError("DISCORD_TOKEN environment variable is not set.")
-        
-@bot.event
-async def setup_hook():
-    await bot.load_extension("suggestions")
     bot.run(TOKEN)
